@@ -1,9 +1,11 @@
 {
-  "$GMRedditOptions":"v1",
+  "$GMRedditOptions":"v2",
   "%Name":"Reddit",
   "name":"Reddit",
+  "option_reddit_devvit_project_id":"hello-world-fds",
+  "option_reddit_devvit_project_path":"C:\\Users\\xdgam\\Desktop\\hello-world-fds",
   "option_reddit_display_cursor":true,
-  "option_reddit_game_name":"${project_name}",
+  "option_reddit_game_name":"Reddit",
   "option_reddit_interpolate_pixels":true,
   "option_reddit_scale":0,
   "option_reddit_texture_page":"2048x2048",

@@ -57,8 +57,8 @@ function reddit_get_token() {
 	_token = "noone";
 	for (var _i = 0; _i < parameter_count(); ++_i) {
 		var _param = parameter_string(_i);
-		if (string_starts_with(_param, "webbit_token=")) {
-			_token = string_delete(_param, 1, 13);
+		if (string_starts_with(_param, "token=")) {
+			_token = string_delete(_param, 1, 6);
 		}
 	}
 	

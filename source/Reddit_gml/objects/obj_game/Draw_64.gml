@@ -5,8 +5,8 @@ draw_set_font(fnt_default);
 draw_text_ext_transformed(10, 10, $"User: {username}\nLevel:{level}\nTotal points: {points}\n", 20, 1280, 2, 2, 0);
 
 
-var _x = room_width * 0.5;
-var _y = room_height * 0.33;
+var _x = window_get_width() * 0.5;
+var _y = window_get_height() * 0.33;
 var _scale = 2.5;
 var _text = $"Click the Box";
 

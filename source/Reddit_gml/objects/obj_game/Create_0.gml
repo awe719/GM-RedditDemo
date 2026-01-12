@@ -17,3 +17,7 @@ api_load_state(function(_status, _ok, _result, _payload) {
 	}
 	alarm[0] = 60;
 });
+
+// this is stored (create event)
+window_width = 0;
+window_height = 0;
